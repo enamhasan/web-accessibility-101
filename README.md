@@ -1,11 +1,25 @@
 # web-accessibility-101
 Web Accessibility / ADA complaint Cheat Sheet
 
-# ```<button>``` VS ```<a>``` tag  in terms of web Accessibility
+# How to make a button web accessible
+
+```<button>``` VS ```<a>``` tag  in terms of web Accessibility
 
 The <button> element should be used for any interaction that performs an action on the current page. 
 The <a> element should be used for any interaction that navigates to another view.
 
+To make a button web-accessible
+* Use Semantic HTML ```<button>``` tag with type attribute
+* Use the aria-label Attribute to provide a more explicit label for assistive technologies. 
+* Ensure the button is fully keyboard accessible. Users should be able to navigate to the button using the "Tab" key and activate it using the "Enter" or "Space"
+
+### Example
+
+ ``` <button type="button" aria-label="Click to submit the contact form">Send</button> ```
+
+When you can’t use semantic HTML
+
+``` <div role="button" tabindex="0" aria-label="Buy now, iPhone 17">Buy now </div> ```
 
 # Make a background image web Accessible with Alt text
 
