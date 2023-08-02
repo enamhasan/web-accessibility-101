@@ -1,6 +1,11 @@
 # web-accessibility-101
 Web Accessibility / ADA complaint Cheat Sheet
 
+# ```<button>``` VS ```<a>``` tag  in terms of web Accessibility
+
+The <button> element should be used for any interaction that performs an action on the current page. 
+The <a> element should be used for any interaction that navigates to another view.
+
 
 # Make a background image web Accessible with Alt text
 
