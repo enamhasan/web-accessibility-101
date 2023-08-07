@@ -40,3 +40,5 @@ Try not to use CSS for important informational images
 For ambient images that are CSS, it is a courtesy to provide alternate text. When doing so, place image in its own empty<span> with an aria-label and role="img.This is also true, in a situation where CSS must be used for information content.
 If the <div> with the CSS image absolutely MUST contain other content, then provide an empty <span> with an aria-label and role="img" immediately following the <div> that has the image.
 
+# Make HTML Tab Accessible
+![Accessible Tabs](https://github.com/enamhasan/web-accessibility-101/assets/9293561/4d5cdf00-1785-4cb1-a720-28c07377122b)
