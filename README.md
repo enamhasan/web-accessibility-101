@@ -1,6 +1,13 @@
 # web-accessibility-101
 Web Accessibility / ADA complaint Cheat Sheet
 
+#  Tools to ensure web Accessibility
+
+ * Wave 
+* Google Lighthouse
+* voice-over
+* Power mapper
+
 # How to make a button web accessible
 
 ```<button>``` VS ```<a>``` tag  in terms of web Accessibility
